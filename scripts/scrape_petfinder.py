@@ -38,3 +38,4 @@ for i in range(1, 600):
 print(response.text)
 with open('output.json', 'w') as output_file:
     dump(data, output_file)
+    
