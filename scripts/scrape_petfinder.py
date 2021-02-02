@@ -37,4 +37,3 @@ for i in range(1, 600):
 
 with open('output.json', 'w') as output_file:
     dump(data, output_file)
-    
