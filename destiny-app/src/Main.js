@@ -1,8 +1,8 @@
 import React from "react";
 import { useState, useEffect } from 'react';
-import Grid from "./elements/Grid";
-import PetImage from "./elements/PetImage";
-import LoadMore from "./elements/LoadMore";
+import Grid from "./components/elements/Grid";
+import PetImage from "./components/elements/PetImage";
+import LoadMore from "./components/elements/LoadMore";
 
 const Main = () => {
 
