@@ -1,74 +1,260 @@
 {
     "Health and Wellbeing": [
-        "Healthy eating",
-        "Walking, hiking, or trekking",
-        "Running",
-        "Biking",
-        "Swimming",
-        "Self-defense",
-        "Sports",
-        "Resistance training (using weights or bodyweight)",
-        "Yoga",
-        "Meditation",
-        "Self-care (massage, grooming, personal hygiene, etc.)"
+        {
+            "activity": "Healthy eating",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl_jnI5TF1pxls2O37hvynxaKLB4nCWtgOUJ1OJU3NFmHDABMczL5gn1p1oLw&s"
+        },
+        {
+            "activity": "Walking, hiking, or trekking",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwf6v84_HdrDAvSVjYwA2-VXi3JX8NCvP1Jh1qSan-Ew685Tk1aOlYvFuF0Q&s"
+        },
+        {
+            "activity": "Running",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh7y2nJWRKs3KsUhkqkRZDcQ3O9FlJpSHQWPwTuj-H_Pp6Ojw790-O_eZYqqg&s"
+        },
+        {
+            "activity": "Biking",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo7N_ToioHGV_oNI36ARRZe_HAMoQW1L-RVMg4R3P8_rOrCRhJlg9O3DZC-rU&s"
+        },
+        {
+            "activity": "Swimming",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh2JDEDkrJVHx7PIIEHTr0PUm9sQy6otL4SYGcuhHKfzgkamYIwErs0Y1cekM&s"
+        },
+        {
+            "activity": "Self-defense",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqMF7-Olr_GCi_uWgA1H_Oyk1IS1Nd7dnUJp8JdF7TN_3dVjiAsIaqDvmM_WA&s"
+        },
+        {
+            "activity": "Sports",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT25jqDtDio8mS8aWn81YMD6DtGUuOQN992HWvAfkUiFpoY92PdOgcVDs_ff64&s"
+        },
+        {
+            "activity": "Resistance training (using weights or bodyweight)",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0LAXJQFcE3d0fhFlBSfrVEoZ8swPi6X1085N-LWB5VICMfadWkx7iQvWbpqM&s"
+        },
+        {
+            "activity": "Yoga",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNcwDH-W4KQnYOzYZTKL_m4l28lGqlHOIzviO0DHfwCM3taHcKj-WNdrrtNQ&s"
+        },
+        {
+            "activity": "Meditation",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROqLD-F-wsVgKR5v7NAUIkk1V1rdQlvNrAUNsVLCTXpXRnF8thEBZXe0otGL8&s"
+        },
+        {
+            "activity": "Self-care (massage, grooming, personal hygiene, etc.)",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs9cDE92GMkLqoL_pAVHjTTuNDhXC83qRNDICp9tsz3Q02L5S2YxDNBw3H0NU&s"
+        }
     ],
     "Learning and Growing": [
-        "Researching or experimenting",
-        "Reading self-help books or taking online courses",
-        "Learning new skills (here\u2019s a list of my top learning resources)",
-        "Practicing",
-        "Journalling",
-        "Learning how to learn",
-        "Knowledge",
-        "Wisdom",
-        "Personal finance"
+        {
+            "activity": "Researching or experimenting",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFZiHqhaHtgFTNGiCK33Bd2naQdw5IgD27mih9DhMj3tjRLLD0ZWW-vLDxQtU&s"
+        },
+        {
+            "activity": "Reading self-help books or taking online courses",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEF5YrP08v5_Psd7CTe91nu7htUK7VrJ3EMMFJmVocfYKjm5lJCmf2n5CoC6Y&s"
+        },
+        {
+            "activity": "Learning new skills (here\u2019s a list of my top learning resources)",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHF11Gy1U7gan8KXOiSWb5pXMk2Loy0xcWya2McxOvaO8bmpejQcphJzvGOw&s"
+        },
+        {
+            "activity": "Practicing",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG95HXFiGUCMStVEJ6UI1kpsrHBz_sGScwFX02y1LuVRJvldGF5OgQ3RGEsQ&s"
+        },
+        {
+            "activity": "Journalling",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYtObF3j4Y9NUhHVtJCSvirOrNTA5XqbcHWYrzKM-19CKGWhigWsTnpzgE6eA&s"
+        },
+        {
+            "activity": "Learning how to learn",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo8IdkGQXunB3ckW3cSEvHs2h-pfY7sqY0ZBazcRVSlt53Nqgu60xomBtakA&s"
+        },
+        {
+            "activity": "Knowledge",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBqeEL8josz9PWiknKLkbGVsDTsdxfRIKIEK2-DcteQkB2Z2RXZOoIMbLToA&s"
+        },
+        {
+            "activity": "Wisdom",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTokh13R3zVs8tOUq3DaooywPjxv-qe0UoowxDFuC9JVSIuBGo1-JXvsNV2Wyo&s"
+        },
+        {
+            "activity": "Personal finance",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfxswQLfzJYpaF78LxiNvI2TfxWHTvdNb5Vy-rvF1VCJhz0eXQCtBjvLIgPxA&s"
+        }
     ],
     "Work and Service": [
-        "Business and entrepreneurship",
-        "Work performance and productivity",
-        "Leadership",
-        "Coaching",
-        "Training or teaching",
-        "Donating",
-        "Volunteering"
+        {
+            "activity": "Business and entrepreneurship",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqR4OBa2bm2GjD9BJmCqMUm8fvNL7uf1Sy4bz6VtJh-BP7G4lrdASbEJ7GhYM&s"
+        },
+        {
+            "activity": "Work performance and productivity",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl5MUh8_JfZgQzQ_JZbcMTUCEQ9XbedE5Pp9OvVjnUKDpRupXfTATECgYfmQ&s"
+        },
+        {
+            "activity": "Leadership",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIW5VxCoStQZoBJJ649y_GkItIuVK1yLI5NjH2m1AoHlBl8pwWPMeNSdbm8Q&s"
+        },
+        {
+            "activity": "Coaching",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyg9YD1bAA9pRgLQZrHfKe38BqqAVKLh8SPlVSYy3KLFyHC68pNlDkHM7lcGo&s"
+        },
+        {
+            "activity": "Training or teaching",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD0JI6NhM33B2zloG-nAcYrYy0INWyJPAocPn-KEGHJy5G3RbTgFQ541Ho_A&s"
+        },
+        {
+            "activity": "Donating",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ58JN5SpUP4apfe0Ggq1CvzDuizYt7VtOqofJ01axH3nngS4ayP1G0g8lOTw&s"
+        },
+        {
+            "activity": "Volunteering",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxCWxadf3igarzxwQsGFSgU3AmwOtNO90uW3zWg3hTIq0pxck7ntOAkN-LgA&s"
+        }
     ],
     "Living a Good Life": [
-        "Writing",
-        "Speaking",
-        "Painting, sketching, or crafting",
-        "Knitting and Crocheting",
-        "Designing",
-        "Creating or Editing",
-        "Building or repairing",
-        "Collecting or organizing",
-        "Decluttering or cleaning",
-        "Playing an instrument",
-        "Singing",
-        "Dancing",
-        "Comedy, act or entertainment",
-        "Reading fiction",
-        "Watching (movies, TV series, documentaries)",
-        "Listening (to music, podcasts, audiobooks)",
-        "Reviewing",
-        "Making and composing",
-        "Photography",
-        "Event hosting or celebration",
-        "Programming",
-        "Playing or gaming",
-        "Cooking",
-        "Gardening",
-        "Animals",
-        "Nature",
-        "Travel",
-        "Adventure sports"
+        {
+            "activity": "Writing",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB5YHppbTESpOb7ttisOP72gVc758LrNHJHR6MRSFPLKd8I8XFvyK-i3RbAQ&s"
+        },
+        {
+            "activity": "Speaking",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_ZP0JzcGqpqPvhdEKUj_x4xouYZ0ao56DS8ksDgw6ol0WKiNm47kNKJGY6Q&s"
+        },
+        {
+            "activity": "Painting, sketching, or crafting",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdFoV1PDjsfCT0N_N7_xSErgpYFvdVV8Bb3xVE2ZQNqACveDeNEfFXR3uaeA&s"
+        },
+        {
+            "activity": "Knitting and Crocheting",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCbmlUiAGN82aIqlLt8uFp3kE9YXrU8WvDMCh-iFLLI7z1RmOqwq8ZNAYA8Ak&s"
+        },
+        {
+            "activity": "Designing",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlOJfl88NAs6_F_gFQgpg34ktgxt306HxOmlBPhBLTTP5dZrb0iLaLzr_YXw&s"
+        },
+        {
+            "activity": "Creating or Editing",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCKvFfMBl0vrTrzDdgZ3bZBg9SGLokmHY3PnbjHyXdCjq8mZz1I1aZKCXZGpI&s"
+        },
+        {
+            "activity": "Building or repairing",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6AaaW2Gzo0dQcj1FmeH5ForJkesCcWx_l5wwhJFh_oVQcKmdd-Q_h3k_Nouo&s"
+        },
+        {
+            "activity": "Collecting or organizing",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-UJ8APLhztGjwk1evqm1r36VuvMpdnHEHvGmZL5btzl6O7-ojaNrZzrirNcE&s"
+        },
+        {
+            "activity": "Decluttering or cleaning",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7VwliDlST0nrjhd39bBe767__tBD-yZW1UNI3Efw8rIDhw140J3R2ZDSeC28&s"
+        },
+        {
+            "activity": "Playing an instrument",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRunCXTKpyaIAh7wQJOOWpNJyfdG1MZhdycAQZCY6h95EQqtRnXtGWLasHRoNw&s"
+        },
+        {
+            "activity": "Singing",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo4pTEs7WFnNWlUOf_3_nsZjT8DBPHZjcOYuJocaSWepK94osiR6N3P_MXZNY&s"
+        },
+        {
+            "activity": "Dancing",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnWfu6HJPvEbAoeuvUxE1Zhu1U6hJcXdPfzysXQYpvVtDq0IqOaSXAICPRZZY&s"
+        },
+        {
+            "activity": "Comedy, act or entertainment",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDRASCs9v3aFhJsWx19SQ4OThgfKZ0N3lK1rb1_K_J-7TxQ_NHajz4Q8GmOc0&s"
+        },
+        {
+            "activity": "Reading fiction",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN8gSNZFljnPPb8qEVaAYEx-YqWSFF572AXQ-vKzLdVaDNDHvSWOi2erSKlg&s"
+        },
+        {
+            "activity": "Watching (movies, TV series, documentaries)",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCBVy_CBbVSarJIWC2hZSFTTTDB1LO9VjE5Mz8qjuxZM0FpPOg7SZGrCT2QpE&s"
+        },
+        {
+            "activity": "Listening (to music, podcasts, audiobooks)",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmjcSa1N-xPGx3Wzme6FHC1MW6rrTiyHixQHikSr-Q1UrWpGvYdXlreOIDYw&s"
+        },
+        {
+            "activity": "Reviewing",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT33p8V_9hWwZ8cNxzWMYuLXRFl375y6SF6t1fNd28CAAg_fT7WipM9-mf2w&s"
+        },
+        {
+            "activity": "Making and composing",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3v5SWUzebs23ZaU0hj8BORT_8E09x7W8zEB0tGiBD4-KJXQ36VKwdKNhsXA&s"
+        },
+        {
+            "activity": "Photography",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJjrobgdmEEeYogmvPcSpmbB9pLVXbW9-sZjXQ6mbUW0_SR5JiSUvbs8OCQQ&s"
+        },
+        {
+            "activity": "Event hosting or celebration",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ-qQkjetGXLMWhK5457rv1xBd_FaU2vF52q7Ep4ZzK_1ecE7A1gVDhVJ2vp4&s"
+        },
+        {
+            "activity": "Programming",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK2C105Ia1-OY5gAuOHREwkLpX0QkGHbyeoC9hJhCzjdE_sW0sxRm7gyMW-g&s"
+        },
+        {
+            "activity": "Playing or gaming",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRat_OP1YkERppUH_oMoNWS2rWYAOZvy_apPnYvxcXyzX-pOQwy1tEoL92Ljg&s"
+        },
+        {
+            "activity": "Cooking",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqAw7MhRz2r8gJKb1ki2EDy0sxDbn1ZZDK2w2J9i6D1-LGzNrr0nlUsqPwwV0&s"
+        },
+        {
+            "activity": "Gardening",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmaC1V95mQ0kDbk0ZJb3FfKZ77L77V5IzBZ1XBU1ogWpbnY_gSVcAswEXt4w&s"
+        },
+        {
+            "activity": "Animals",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbCZsVRspWe9ippR2FMZSaZLJ7d34g7gcUkNOCSm15a_qMIYr4X5D7l7zMCQ&s"
+        },
+        {
+            "activity": "Nature",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQSCMAkaxHc-e3L6orAy0IAkVzQQRxU0dKVE_eNktOBc7nWv5QBv1HpmvgaB0&s"
+        },
+        {
+            "activity": "Travel",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR3IUR3hOEby4UZkiCu_2SaY1cJ3sSrafTGe8QESGnpq8VR36aStDwZr12rQ&s"
+        },
+        {
+            "activity": "Adventure sports",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn5kQWqL-aV4OPBMJR7uMzu588wOCiJmbHltJNEdE-859_Zsxwcdg9AZZ1Vrk&s"
+        }
     ],
     "Love and Relationships": [
-        "Being a partner",
-        "Being a parent",
-        "Being a son/daughter",
-        "Being a brother/sister",
-        "Being a friend",
-        "Being a relative",
-        "Being a citizen"
+        {
+            "activity": "Being a partner",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsQoWy4Qg1j4agbM6RF3z3UCzUIDczPnF68bPIcslKVnJcneoZBcidQw4-WyI&s"
+        },
+        {
+            "activity": "Being a parent",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq7fVRDB_UQKX6pfe6VEWwAB0HloBe1JZwVaE032eiqPLEcY80fyNhYgsFhQ&s"
+        },
+        {
+            "activity": "Being a son/daughter",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTox5-_ZJykP89jt5jQxbbY6IEI-ZScWdnHm-BjyRcAkOKyxl65iza_3eIGFeI&s"
+        },
+        {
+            "activity": "Being a brother/sister",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcKwJkxE8LHLBDJxnDITgQ91gMLW3TEsk93NsT2pq1vixifQDIJj8HbQOncik&s"
+        },
+        {
+            "activity": "Being a friend",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWgTwmZsaDFAEZqYggGQJhZ_EDCZOiyFfDHG5zbQggpmm12DhSu6gJnLjzo0M&s"
+        },
+        {
+            "activity": "Being a relative",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHMuR-1Ge4ndkzleN-Tfog07B8HKtgub3wPTUqCvjA19VpPJylT-tysp_rVg&s"
+        },
+        {
+            "activity": "Being a citizen",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqtOb0bxpbPp-prLqPYYyKecFeb8S6m1NoLZeSM9HZSBYO5BjgXJrh6e1z8g&s"
+        }
     ]
 }
