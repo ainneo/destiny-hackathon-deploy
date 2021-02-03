@@ -15,4 +15,4 @@ We have sourced over 60,000 pets available for adoption in California to aid you
 Our list of passions span topics from Well-being to Relationships.
 
 # Tech Stack
-Our frontend is constructed with React and the backend with the Django framework. Our data comes as the result of web scraping using Python.
+Our frontend is constructed with React and the backend with the Flask framework. Our data comes as the result of web scraping using Python.
