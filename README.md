@@ -2,7 +2,7 @@
 
 Many of us live alone and wander through life. Enter Destiny. Destiny matches you to a pet and a passion to help you devote yourself to caring for another living thing and refine a craft to call your own. Our focus is increasing pet adoption in the California area and swapping idle hands for joyous memories.
 
-![Devpost Banner](docs/img/logo.png)
+![Devpost Banner](docs/img/banner.png)
 
 ## The Path
 
