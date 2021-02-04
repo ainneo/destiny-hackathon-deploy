@@ -15,7 +15,15 @@ const Header = () => (
     <Link to="/">
       <StyledPawLogo src={pawLogo} alt="rmdb-logo" />
     </Link>
+    <Link to="/">
     <h1>Destiny</h1>
+    </Link>
+
+    <nav className="nav">
+     <Link to="/adopt">Adopt</Link>
+     <Link to="/about">About</Link>
+   </nav>
+   
   </div>
 </StyledHeader>
 )

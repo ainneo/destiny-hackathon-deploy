@@ -1,13 +1,13 @@
 import React from 'react';
 
-
 const Adopt = () => {
 
   return (
    <div>
-   About
+   <h1>hello</h1>
    </div>
   )
-};
+}
 
 export default Adopt;
+
