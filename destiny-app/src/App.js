@@ -1,7 +1,6 @@
 import React from 'react';
 import { GlobalStyle } from './components/styles/GlobalStyle';
 import { Router } from '@reach/router';
-import { Link } from "@reach/router";
 
 import Header from './components/elements/Header';
 import Main from './Main';
