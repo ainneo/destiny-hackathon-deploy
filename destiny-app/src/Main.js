@@ -10,7 +10,7 @@ Modal.setAppElement("#root");
 
 const Main = () => {
     //state for popup model
-    const [isOpen, setIsOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState(true);
 
     //state for img grid
     const [pets, setPets] = useState([]);
@@ -24,6 +24,7 @@ const Main = () => {
     function toggleModal() {
       setIsOpen(!isOpen);
     }
+    
 
     //fake api call
     useEffect(()=>{
@@ -39,7 +40,7 @@ const Main = () => {
     <div>
 
 <div className="App">
-      <button onClick={toggleModal}>Open modal</button>
+      {/* <button onClick={toggleModal}>TEST BUTTON</button> */}
 
       <Modal
         isOpen={isOpen}
@@ -48,9 +49,10 @@ const Main = () => {
         className="mymodal"
         overlayClassName="myoverlay"
         closeTimeoutMS={500}
-      >
-        <div>My modal dialog.</div>
-        <button onClick={toggleModal}>Close modal</button>
+      > 
+        <img src="https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/49300453/1/?bust=1612292588&width=300"/>
+        <div>Destiny has found your match!.</div>
+        <button onClick={toggleModal}>x</button>
       </Modal>
     </div>
      

@@ -5,6 +5,7 @@ import { Router } from '@reach/router';
 import Header from './components/elements/Header';
 import Main from './Main';
 import About from './components/About'
+import Adopt from './components/Adopt'
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
 
       <Router >
         <Main path="/"/>
+        <Adopt path ='adopt'/>
         <About path ='about'/>
       </Router>
 
