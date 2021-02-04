@@ -3,7 +3,7 @@ from random import randint, sample
 from json import load
 from backend.webserver import app, name, version
 
-data_folder = '../data'
+data_folder = 'data'
 pets = load(open(f'{data_folder}/master.json'))['count']
 
 @app.route('/')
