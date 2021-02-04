@@ -1,7 +1,7 @@
 from flask import jsonify, request
 from random import randint, sample
 from json import load
-from webserver import app, name, version
+from backend.webserver import app, name, version
 
 data_folder = '../data'
 pets = load(open(f'{data_folder}/master.json'))['count']

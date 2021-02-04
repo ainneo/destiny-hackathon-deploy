@@ -1,4 +1,4 @@
-from webserver import app as webservice
+from backend.webserver import app as webservice
 from sys import version_info
 
 MIN_VERSION = (3, 7)

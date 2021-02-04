@@ -4,4 +4,4 @@ name = 'DestinyAPI'
 version = '1.0'
 app = Flask(__name__)
 
-from webserver import routes
+from backend.webserver import routes
