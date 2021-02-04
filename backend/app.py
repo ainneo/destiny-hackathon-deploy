@@ -6,4 +6,4 @@ assert version_info >= MIN_VERSION, f'requires Python {".".join([str(n) for n in
 
 
 if __name__ == '__main__':
-    webservice.run(host='0.0.0.0')
+    webservice.run(host='0.0.0.0', port=5001)
