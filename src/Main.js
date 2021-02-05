@@ -63,12 +63,13 @@ const Main = () => {
       > 
       {popPets.map( (pet, id) => (
           <PetPopUp
-            key={id} 
-            pet={pet}
+           key={id} 
+           pet={pet}
+           petId={pet.animal.id}
+           clickable
           />))}
         {/* <img src="https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/49300453/1/?bust=1612292588&width=300"/> */}
-        <div>Find your new best friend!</div>
-        <button onClick={toggleModal}>x</button>
+        <button onClick={toggleModal}>x</button> 
       </Modal>
     </div>
      

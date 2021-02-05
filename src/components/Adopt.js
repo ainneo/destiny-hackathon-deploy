@@ -6,16 +6,24 @@ import './styles/StyledPetPage.css'
 const Adopt = ({ petId }) => {
   //set pets 
   const [petPage, setPetPage] = useState([]);
-
+  // useEffect(() => {
+  //   // fetch('./petfinder.json')
+  //   fetch("https://api.destinypets.space/pets?count=12")
+  //     .then((res) => res.json())
+  //     .then((data) => {
+  //       console.log(data); //test
+  //       setPetPage(data.slice(0,1));
+  //     });
+  // }, []);
   useEffect(() => {
     // fetch('./petfinder.json')
-    fetch("https://api.destinypets.space/pets?count=12")
+    fetch(`https://api.destinypets.space/pet?id=${petId}`)
       .then((res) => res.json())
       .then((data) => {
         console.log(data); //test
-        setPetPage(data.slice(0,1));
+        setPetPage([data]);
       });
-  }, []);
+  }, [petId]);
   
 
   //map and render to the UI
