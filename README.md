@@ -81,3 +81,7 @@ My logic of setting up app:
 - create components folder and create skelton elements
 - create a main page
   - import elements that you want to use
+
+
+###For netlify deployment:
+```CI= npm run build```
