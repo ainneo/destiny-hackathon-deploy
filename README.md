@@ -1,24 +1,83 @@
-# Destiny
+# Getting Started with Create React App
 
-Many of us live alone and wander through life. Enter Destiny. Destiny matches you to a pet and a passion to help you devote yourself to caring for another living thing and refine a craft to call your own. Our focus is increasing pet adoption in the California area and swapping idle hands for joyous memories.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![Devpost Banner](docs/img/banner.png)
+## Available Scripts
 
-## The Path
+In the project directory, you can run:
 
-There are two steps to fulfilling your destiny:
+### `npm start`
 
-- [ ] Pet
-- [ ] Passion
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## The Pet
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-We have sourced over 60,000 pets available for adoption in California to aid you in giving one a forever home.
+### `npm test`
 
-## The Passion
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Our list of passions span topics from Well-being to Relationships.
+### `npm run build`
 
-## Tech Stack
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Our frontend is constructed with React and the backend with the Flask framework. Our data comes as the result of web scraping using Python.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### Misc
+Addional dependencies to add on top of CRA:
+```npm i prop-types @reach/router styled-components react-fontawesome```
+
+https://dev.to/cesareferrari/what-is-proptypes-and-how-to-use-it-in-react-2eml#:~:text=PropTypes%20is%20a%20library%20that,t%20match%20the%20types%20expected.
+
+My logic of setting up app:
+- strip cra
+- create components folder and create skelton elements
+- create a main page
+  - import elements that you want to use
