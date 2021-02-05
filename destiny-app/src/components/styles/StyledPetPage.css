@@ -1,0 +1,44 @@
+body{
+    background-color: #efeef1;
+}
+
+.wrapper{
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-wrapper{
+  display: flex;
+  max-width: 1200px;
+  background:white;
+  padding: 20px;
+  margin-top:40px;
+  border-radius: 2%;
+}
+
+.column{
+  width: 40%;
+  padding: 10px
+}
+
+
+.pet-img{
+  object-fit: cover;
+  width: 100%; 
+}
+
+
+@media screen and (max-width: 800px) {
+  .inner-wrapper{
+    margin: 20px;
+    display: block;
+  }
+  .column{
+    width: 100%;
+  }
+
+  
+}
+

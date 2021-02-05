@@ -32,7 +32,7 @@ const Main = () => {
         fetch('https://api.destinypets.space/pets?count=20')
           .then((res)=>res.json())
           .then((data)=>{
-            console.log(data); //test
+            // console.log(data); //test
             // setPets(data.slice(0,20))
             setPets(data)
           });
@@ -72,12 +72,12 @@ const Main = () => {
       </Modal>
     </div>
      
-      <Grid text="Find your pet!" >
+      <Grid text="Meet your new best friend!" >
           {pets.map( (pet, id) => (
           <PetImage
             key={id} 
             pet={pet}
-            petId={pet.id}
+            petId={pet.animal.id}
             clickable
           />))}
       </Grid>
