@@ -29,7 +29,7 @@ const Main = () => {
     //api call for main grid
     useEffect(()=>{
         // fetch('./petfinder.json')
-        fetch('https://api.destinypets.space/pets?count=20')
+        fetch('https://api.destinypets.space/pets?count=25')
           .then((res)=>res.json())
           .then((data)=>{
             // console.log(data); //test

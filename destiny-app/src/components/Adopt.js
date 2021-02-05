@@ -24,14 +24,13 @@ const Adopt = ({ petId }) => {
      { petPage.map( pet =>{
        return(
          <div className="wrapper">
-
            <div className="inner-wrapper">
             <div className="img-wrapper columm"> <img className='pet-img' src={pet.animal.primary_photo_cropped_url}></img></div>
             <div className="text-wrapper column">
-              <h1>Name: {pet.animal.name}</h1>
+              <h3>Name: {pet.animal.name}</h3>
               <p>{pet.animal.description}</p>
            </div>
-        </div>
+         </div>
         </div>
        )
      }
