@@ -5,7 +5,7 @@ import { StyledPetImage } from '../styles/StyledPetImage';
 
 const PetImage = ({ pet, petId, clickable }) => {
   
-let backgroundImage = pet.animals[0].photos[0].medium
+let backgroundImage = pet.animal.primary_photo_cropped_url
 // console.log(pet.animals[0].photos[0].medium) //test
 
 

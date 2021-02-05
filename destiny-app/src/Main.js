@@ -2,6 +2,7 @@ import React from "react";
 import { useState, useEffect } from 'react';
 import Grid from "./components/elements/Grid";
 import PetImage from "./components/elements/PetImage";
+import PetPopUp from "./components/elements/PetPopUp";
 import LoadMore from "./components/elements/LoadMore";
 import Modal from "react-modal";
 import './components/styles/StyledModal.css'
@@ -11,9 +12,9 @@ Modal.setAppElement("#root");
 const Main = () => {
     //state for popup model
     const [isOpen, setIsOpen] = useState(true);
-
     //state for img grid
     const [pets, setPets] = useState([]);
+    const [popPets, setPopPets] = useState([]);
 
     //load more pets
     //need to write a condtion allow more pets
@@ -25,23 +26,33 @@ const Main = () => {
       setIsOpen(!isOpen);
     }
     
-
-    //fake api call
+    //api call for main grid
     useEffect(()=>{
-        fetch('./petfinder.json')
+        // fetch('./petfinder.json')
+        fetch('https://api.destinypets.space/pets?count=20')
           .then((res)=>res.json())
           .then((data)=>{
-            // console.log(data); //test
-            setPets(data.slice(0,12))
+            console.log(data); //test
+            // setPets(data.slice(0,20))
+            setPets(data)
           });
-      },[])
+      },[]);
 
+    //api call for popup modal
+    useEffect(()=>{
+      fetch('https://api.destinypets.space/pets?count=1')
+        .then((res)=>res.json())
+        .then((data)=>{
+          setPopPets(data)
+        });
+    },[]);
+
+    
   return (
     <div>
 
-<div className="App">
+      <div className="App">
       {/* <button onClick={toggleModal}>TEST BUTTON</button> */}
-
       <Modal
         isOpen={isOpen}
         onRequestClose={toggleModal}
@@ -50,13 +61,17 @@ const Main = () => {
         overlayClassName="myoverlay"
         closeTimeoutMS={500}
       > 
-        <img src="https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/49300453/1/?bust=1612292588&width=300"/>
-        <div>Destiny has found your match!.</div>
+      {popPets.map( (pet, id) => (
+          <PetPopUp
+            key={id} 
+            pet={pet}
+          />))}
+        {/* <img src="https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/49300453/1/?bust=1612292588&width=300"/> */}
+        <div>Find your new best friend!</div>
         <button onClick={toggleModal}>x</button>
       </Modal>
     </div>
      
-
       <Grid text="Find your pet!" >
           {pets.map( (pet, id) => (
           <PetImage
@@ -66,7 +81,10 @@ const Main = () => {
             clickable
           />))}
       </Grid>
+
       <LoadMore text="Load More" onClick={loadMorePets()} />
+
+
     </div>
   );
 };
