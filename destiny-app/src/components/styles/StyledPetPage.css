@@ -1,0 +1,129 @@
+body{
+    background-color: #efeef1;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper{
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-wrapper{
+  display: flex;
+  max-width: 1200px;
+  background:white;
+  padding: 20px;
+  margin-top:40px;
+  border-radius: 2%;
+}
+
+.column{
+  width: 40%;
+  padding-left: 30px
+}
+
+
+.pet-img{
+  object-fit: cover;
+  width: 100%; 
+  padding:10px
+}
+
+/* //mobile */
+@media screen and (max-width: 700px) {
+  .inner-wrapper{
+    margin: 20px;
+    display: block;
+  }
+  .column{
+    width: 100%;
+  }
+}
+
+
+
+/* About/Form Styles*/
+
+.about-wrapper{
+  max-width: 500px;
+  margin: 0 auto; 
+  padding-top:40px
+}
+
+
+.contact__wrap{
+  text-align: center;
+  transform: translateY(10%);
+}
+
+h3{
+  margin: 0;
+  font-size:30px;
+  margin-bottom: 40px;
+  color: #631ebc;
+}
+
+.about-wrapper > h3{
+  padding-top: 40px;
+  margin: 0;
+  font-size:30px;
+  margin-bottom: 40px;
+  color: #631ebc;
+}
+
+.contact__form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto; 
+}
+.contact__form input{
+    height: 35px;
+    border: 2px solid #631ebc;
+    /* padding-left: 5px; */
+    margin-bottom: 10px;
+    transition: .2s;
+}
+.contact__form input:hover{
+    border: 2px solid #ff8080;
+}
+
+.contact__form input::placeholder{
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.contact__form textarea{
+    height: 120px;
+    border: 2px solid #631ebc;
+    resize: none;
+    padding-left: 5px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.contact__form textarea::placeholder{
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.contact__form textarea:hover{
+     border: 2px solid #ff8080;
+}
+.contact__form input[type="submit"]{
+    height: 40px;
+    font-size: 14px;
+    color: #fff;
+    background: #631ebc;
+    text-transform: uppercase;
+    width: 50%;
+    transition: .2s;
+}
+.contact__form input[type="submit"]:hover{
+    font-size: 16px;
+    border: 0;
+}
+
+
+
+

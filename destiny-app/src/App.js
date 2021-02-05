@@ -16,7 +16,7 @@ const App = () => {
 
       <Router >
         <Main path="/"/>
-        <Adopt path ='adopt'/>
+        <Adopt path ='/:petId'/>
         <About path ='about'/>
       </Router>
 
