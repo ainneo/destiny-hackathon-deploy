@@ -13,8 +13,10 @@ https://dev.to/cesareferrari/what-is-proptypes-and-how-to-use-it-in-react-2eml#:
 ### For the pop up model:  https://www.newline.co/@dmitryrogozhny/how-to-display-modal-dialog-in-react-with-react-modal--dbf46cda
 Adding react-modal to Project
 We will start by adding the react-modal package to our project:
-Add with npm
+Add with npm:
+```
 npm install react-modal
+```
 
 The package provides the Modal component that we're going to use.
 Showing Modals with react-modal
