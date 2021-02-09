@@ -83,7 +83,7 @@ const Main = () => {
           />))}
       </Grid>
 
-      <LoadMore text="Load More" onClick={loadMorePets()} />
+      <LoadMore text="Load More" onClick={loadMorePets} />
 
 
     </div>
