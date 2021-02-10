@@ -14,9 +14,12 @@ const Main = () => {
     const [popPets, setPopPets] = useState([]);  //sate for popup pictures
     //state for img grid
     const [pets, setPets] = useState([]); //fetching & setting all pet data to pets
-    const [loadPets, loadSetPets] = useState(16);//Instead of hardcoding amount, you need to store it in a variable that you can change later
+    const [loadPets, loadSetPets] = useState(16);// Starting number of visible pets
+    //Instead of hardcoding amount, you need to store it in a variable that you can change later
   
     //load more pets
+    // Set the visible pets to the current amount + 4
+    // eg. if there are 10 visible post, clicking again will show 14.
     const loadMorePets = () => {
          loadSetPets(loadPets + 8)
     };
@@ -81,7 +84,7 @@ const Main = () => {
             clickable
           />))}
       </Grid>
-      
+
       <LoadMore text="Load More" handelLoad={loadMorePets} />
     </div>
   );
