@@ -10,7 +10,8 @@ For:
 https://dev.to/cesareferrari/what-is-proptypes-and-how-to-use-it-in-react-2eml#:~:text=PropTypes%20is%20a%20library%20that,t%20match%20the%20types%20expected
 
 
-### For the pop up model:  https://www.newline.co/@dmitryrogozhny/how-to-display-modal-dialog-in-react-with-react-modal--dbf46cda
+### For the pop up model:  
+https://www.newline.co/@dmitryrogozhny/how-to-display-modal-dialog-in-react-with-react-modal--dbf46cda
 Adding react-modal to Project
 We will start by adding the react-modal package to our project:
 Add with npm:
