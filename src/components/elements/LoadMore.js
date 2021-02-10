@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 
 import { StyledLoadMore } from '../styles/StyledLoadMore';
 
-const LoadMore = ({ text, callback }) => (
-  <StyledLoadMore type="button" onClick={callback}>
+const LoadMore = ({ text, handelLoad }) => (
+  <StyledLoadMore type="button" onClick={handelLoad}>
     {text}
   </StyledLoadMore>
 )

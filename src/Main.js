@@ -10,15 +10,15 @@ import './components/styles/StyledModal.css'
 Modal.setAppElement("#root");
 
 const Main = () => {
-    //state for popup model
-    const [isOpen, setIsOpen] = useState(true);
+    const [isOpen, setIsOpen] = useState(true);  //state for popup model
+    const [popPets, setPopPets] = useState([]);  //sate for popup pictures
     //state for img grid
-    const [pets, setPets] = useState([]);
-    const [popPets, setPopPets] = useState([]);
-
+    const [pets, setPets] = useState([]); //fetching & setting all pet data to pets
+    const [loadPets, loadSetPets] = useState(16);//Instead of hardcoding amount, you need to store it in a variable that you can change later
+  
     //load more pets
-    //need to write a condtion allow more pets
     const loadMorePets = () => {
+         loadSetPets(loadPets + 8)
     };
     
     //popup model function
@@ -29,7 +29,7 @@ const Main = () => {
     //api call for main grid
     useEffect(()=>{
         // fetch('./petfinder.json')
-        fetch('https://api.destinypets.space/pets?count=25')
+        fetch('https://api.destinypets.space/pets?count=80')
           .then((res)=>res.json())
           .then((data)=>{
             // console.log(data); //test
@@ -47,7 +47,6 @@ const Main = () => {
         });
     },[]);
 
-    
   return (
     <div>
 
@@ -74,7 +73,7 @@ const Main = () => {
     </div>
      
       <Grid text="Meet your new best friend!" >
-          {pets.map( (pet, id) => (
+          {pets.slice(0, loadPets).map( (pet, id) => (
           <PetImage
             key={id} 
             pet={pet}
@@ -82,10 +81,8 @@ const Main = () => {
             clickable
           />))}
       </Grid>
-
-      <LoadMore text="Load More" onClick={loadMorePets()} />
-
-
+      
+      <LoadMore text="Load More" handelLoad={loadMorePets} />
     </div>
   );
 };
