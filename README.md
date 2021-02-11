@@ -1,5 +1,4 @@
-### Misc
-Additional dependencies to add on top of CRA:
+### Additional dependencies to add on top of CRA:
 - ```npm i prop-types @reach/router styled-components react-fontawesome```
 
 For:
