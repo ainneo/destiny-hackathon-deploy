@@ -7,14 +7,14 @@ const PetPopUp = ({ pet, petId, clickable }) => {
 let backgroundImage = pet.animal.primary_photo_cropped_url
 // console.log(pet.animals[0].photos[0].medium) //test
 
-return (
+return !backgroundImage? []:(
   <StyledPetPopImage>
         {/* <img  src={backgroundImage} alt="petImage" /> */}
 
-    {clickable ? (
+    {clickable? (
       <Link to={`/${petId}`}>
         <img className="clickable" src={backgroundImage} alt="petImage" />
-        <div>Destiny has matched your with {pet.animal.name}!</div>
+        <div>Destiny has matched you with {pet.animal.name}!</div>
       </Link>
     ) : (
       ''

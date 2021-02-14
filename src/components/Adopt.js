@@ -9,7 +9,7 @@ const Adopt = ({ petId }) => {
 
   useEffect(() => {
     // fetch('./petfinder.json')
-    fetch(`https://api.destinypets.space/pet?id=${petId}`)
+    fetch(`https://gid3279.pythonanywhere.com/pet?id=${petId}`)
       .then((res) => res.json())
       .then((data) => {
         console.log(data); //test
@@ -19,10 +19,10 @@ const Adopt = ({ petId }) => {
   
 
   //map and render to the UI
-  return (
+  return  (
     <div>
      { petPage.map( pet =>{
-       return(
+       return !pet.animal.description? []:(
          <div className="wrapper">
            <div className="inner-wrapper">
             <div className="img-wrapper columm"> <img className='pet-img' src={pet.animal.primary_photo_cropped_url} alt='pet-img'></img></div>

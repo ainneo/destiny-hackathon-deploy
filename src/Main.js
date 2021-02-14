@@ -32,7 +32,7 @@ const Main = () => {
     //api call for main grid
     useEffect(()=>{
         // fetch('./petfinder.json')
-        fetch('https://api.destinypets.space/pets?count=80')
+        fetch('https://gid3279.pythonanywhere.com/pets?count=80')
           .then((res)=>res.json())
           .then((data)=>{
             // console.log(data); //test
@@ -43,7 +43,7 @@ const Main = () => {
 
     //api call for popup modal
     useEffect(()=>{
-      fetch('https://api.destinypets.space/pets?count=1')
+      fetch('https://gid3279.pythonanywhere.com/pets?count=1')
         .then((res)=>res.json())
         .then((data)=>{
           setPopPets(data)

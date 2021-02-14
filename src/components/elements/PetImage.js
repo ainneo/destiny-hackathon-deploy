@@ -11,7 +11,7 @@ let backgroundImage = pet.animal.primary_photo_cropped_url
 
 
 
-return (
+return !backgroundImage? []: (
   <StyledPetImage>
     {clickable ? (
       <Link to={`/${petId}`}>
