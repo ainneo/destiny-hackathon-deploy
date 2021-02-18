@@ -1,6 +1,6 @@
 
 # DESCRIPTION
-This project was an MLH hackathon project that was built in less then 3 days. The fronend was built with react hooks and the backend was built with Flask and Python. We won the hackathon!
+This project was an MLH hackathon project that was built in less then 3 days. The fronend was built with react hooks and the backend was built with Flask and Python. We won the hackathon! [for more info](https://devpost.com/submit-to/11817-mlh-fellowship-orientation-hackathon-batch-2/manage/submissions)
 
 ### Additional dependencies to add on top of CRA:
 - ```npm i prop-types @reach/router styled-components react-fontawesome```
