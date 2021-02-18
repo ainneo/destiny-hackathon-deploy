@@ -10,18 +10,13 @@ For:
 - styled-components
 - react-fontawesome
 - prop-types
-https://dev.to/cesareferrari/what-is-proptypes-and-how-to-use-it-in-react-2eml#:~:text=PropTypes%20is%20a%20library%20that,t%20match%20the%20types%20expected
-
 
 ### For the pop up model:  
-https://www.newline.co/@dmitryrogozhny/how-to-display-modal-dialog-in-react-with-react-modal--dbf46cda
-Adding react-modal to Project
-We will start by adding the react-modal package to our project:
+Add the react-modal package to project:
 Add with npm:
 ```
 npm install react-modal
 ```
-
 The package provides the Modal component that we're going to use.
 Showing Modals with react-modal
 Now, let's display a modal dialog using the Modal component:
@@ -56,7 +51,6 @@ export default function App() {
 }
 ```
 For more see: https://www.newline.co/@dmitryrogozhny/how-to-display-modal-dialog-in-react-with-react-modal--dbf46cda
-
 
 
 ### For netlify deployment:
