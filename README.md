@@ -5,15 +5,13 @@ Destiny is a winning MLH hackathon project built in less then 3 days. The fronte
 ### Additional dependencies to add on top of CRA:
 - ```npm i prop-types @reach/router styled-components react-fontawesome```
 
-For:
 - @reach router
 - styled-components
 - react-fontawesome
 - prop-types
 
-### For the pop up model:  
+### Pop up model:  
 Add the react-modal package to project:
-Add with npm:
 ```
 npm install react-modal
 ```
