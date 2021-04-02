@@ -50,8 +50,3 @@ export default function App() {
 ```
 For more see: https://www.newline.co/@dmitryrogozhny/how-to-display-modal-dialog-in-react-with-react-modal--dbf46cda
 
-
-### For netlify deployment:
-- ```CI= npm run build```
-- correct all errors/warnings in console, before deploying app
- 
