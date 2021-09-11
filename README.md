@@ -1,6 +1,6 @@
 
 ## Description
-Destiny is a winning MLH MVP hackathon project built in less then 3 days. The frontend was built with react hooks and the backend was built with Flask and Python.  [hackathon info](https://devpost.com/submit-to/11817-mlh-fellowship-orientation-hackathon-batch-2/manage/submissions)
+Destiny is a winning MLH MVP hackathon project built in less then 3 days. The frontend was built with react hooks and the backend was built with Flask and Python.
 
 ### Additional dependencies to add on top of CRA:
 ```npm i prop-types @reach/router styled-components react-fontawesome```
